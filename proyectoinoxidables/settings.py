@@ -27,7 +27,7 @@ SECRET_KEY = '6jj8zf3zzvly-4xohlbg^fq=(%kmyln+25+0@(y8s_)8u_8%qa'
 
 ALLOWED_HOSTS = ["*"]
 
-IN_DEVELOPMENT = True
+IN_DEVELOPMENT = False
 
 if IN_DEVELOPMENT:
     DEBUG = True
