@@ -33,7 +33,7 @@
                 <div style="text-align: center; color: grey;">
                      Categorias:
                      {% for post in posts %}
-                        {%for categoria in post.categorias.all %}
+                        {% for categoria in post.categorias.all %}
 
                         <a href="{% url 'categoria' categoria.id %}" class="linksCategoriasblog">  {{categoria.nombre}}  </a> &nbsp; &nbsp; &nbsp;
 
